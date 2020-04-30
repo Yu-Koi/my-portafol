@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Console: https://console.firebase.google.com/project/nerymar-guarnizo-4f808/overview
+## Hosting URL: https://nerymar-guarnizo-4f808.firebaseapp.com
+
 ## Available Scripts
 
 In the project directory, you can run:

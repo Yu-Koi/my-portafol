@@ -6,7 +6,8 @@ import avatar from "../img/nerymarg.jpg";
 const Navbar = () => {
   return (
     <Fragment>
-    <div className="nav flex-column navbar navbar-light bg-light">
+    <div className="navbar nav flex-column navbar-dark bg-dark">
+      {/* navbar-light bg-light */}
      
       <div className="nav flex-column">
         <div className="nav flex-column">
@@ -18,20 +19,20 @@ const Navbar = () => {
         <Link to="/" className="navbar-brand">
             Front-end Developer
         </Link>
-        <div className="nav nav-pills flex-column">
-          <NavLink className="nav-link btn-dark ml-3 my-1" to="/" exact>
+        <div className="nav nav-pills nav-fill flex-column">
+          <NavLink className="nav-link btn btn-dark mr-2 my-1" to="/" exact>
             Home
           </NavLink>
-          <NavLink className="nav-link btn-dark ml-3 my-1" to="/about">
+          <NavLink className="nav-link btn btn-dark mr-2 my-1" to="/about">
             About Me
           </NavLink>
-          <NavLink className="nav-link  btn-dark ml-3 my-1" to="/skills">
+          <NavLink className="nav-link btn btn-dark mr-2 my-1" to="/skills">
             Skills
           </NavLink>
-          <NavLink className="nav-link btn-dark ml-3 my-1" to="/projects">
+          <NavLink className="nav-link btn btn-dark mr-2 my-1" to="/projects">
             Projects
           </NavLink>
-          <NavLink className="nav-link btn-dark ml-3 my-1" to="/contact">
+          <NavLink className="nav-link btn btn-dark mr-2 my-1" to="/contact">
             Contact
           </NavLink>
         </div>
