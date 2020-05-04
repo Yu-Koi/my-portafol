@@ -1,17 +1,21 @@
+.NavApp {
+  text-align: center;
+}
 .avatar {
   border-radius: 50%;
   margin-right: 3rem;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 80px;
 }
-/* .about {
-  margin-right: 3rem;
-  margin-left: 3rem;
-  width: 400px;
-  height: 400px;
-} */
 .card {
   width: 30rem;
 }
-
-
+.gridComponent {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  position: -ms-page;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+}

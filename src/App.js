@@ -13,15 +13,18 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div  className="container-fluid row">
-        <Navbar/>
+      <div className="container">
+        <Navbar />
         <Switch>
           <Route path="/contact">{Contact}</Route>
           <Route path="/skills">{Skills}</Route>
           <Route path="/projects">{Projects}</Route>
           <Route path="/about">{AboutMe}</Route>
-          <Route path="/" exact>{Home}</Route>
+          <Route path="/" exact>
+            {Home}
+          </Route>
         </Switch>
+        {/* <Carrusell/> */}
       </div>
     </Router>
   );
